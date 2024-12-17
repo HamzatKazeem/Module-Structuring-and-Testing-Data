@@ -11,7 +11,7 @@ const num = 56.5678;
 wholeNumberPart = Math.trunc(num)
 console.log(wholeNumberPart)
 
-decimalPart = (Math.floor(num).toFixed(4))
+decimalPart = (num % 1).toFixed(4)
 console.log(decimalPart)
 
 roundedNum = Math.ceil(num)
