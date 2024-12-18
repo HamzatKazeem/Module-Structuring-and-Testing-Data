@@ -19,8 +19,8 @@ console.log()
 
 // Create a variable to store the dir part of the filePath variable
 
-const indexOfFirstslash = filePath.indexOf("/");
-const dir=filePath.slice(indexOfFirstslash+1,lastSlashIndex)
+//const indexOfFirstslash = filePath.indexOf("/");
+const dir=filePath.slice(1,lastSlashIndex)
 console.log(`The dir part of ${filePath} is ${dir}`);
 
 
