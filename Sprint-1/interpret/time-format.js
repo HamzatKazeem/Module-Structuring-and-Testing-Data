@@ -18,7 +18,7 @@ console.log(result);
 // 1 function call
 
 // c) Using documentation, explain what the expression movieLength % 60 represents
-// % is a modulus operator. It divides movieLength by 60 and returns the remainder.
+// % is a modulus operator. It divides movieLength by 60 and returns the remainder. This is calculating the number of seconds left after full minutes have been established.
 
 // d) Interpret line 4, what does the expression assigned to totalMinutes mean?
 // Subtracting remainingMinutes from movieLength will ensure we get an integer value for totalMinutes. 
