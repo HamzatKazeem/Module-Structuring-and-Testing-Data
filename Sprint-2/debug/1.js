@@ -6,5 +6,5 @@ function sum(a, b) {
 
 console.log(`The sum of 10 and 32 is ${sum(10, 32)}`);
 
-/* A return statement without an explicit will give undefined value.
+/* A return statement without an explicit value will give an undefined value.
 */
